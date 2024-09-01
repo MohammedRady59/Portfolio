@@ -101,41 +101,24 @@ body {
     0 100%
   );
 }
-/* .text-shpere {
-  position: relative;
-  top: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
-/* .tagcloud {
-  display: block;
-  top: 0;
-  left: 0;
-  font-weight: 600;
-  font-size: 1.2rem;
-  letter-spacing: 0.0625em;
-} */
+
 .tagcloud--item {
   color: aqua;
 }
 .tagcloud--item:hover {
   color: white;
 }
-/* تخصيص شكل شريط التمرير */
 ::-webkit-scrollbar {
-  width: 12px; /* عرض شريط التمرير */
-  height: 12px; /* ارتفاع شريط التمرير (في حال التمرير الأفقي) */
+  width: 12px;
+  height: 12px;
 }
 
-/* تخصيص شكل المقبض (الجزء الذي يتحرك) */
 ::-webkit-scrollbar-thumb {
   background-color: #888; /* لون المقبض */
   border-radius: 10px; /* انحناء حواف المقبض */
 }
 
-/* تخصيص شكل المسار (الخلفية خلف المقبض) */
 ::-webkit-scrollbar-track {
-  background-color: #f1f1f1; /* لون المسار */
-  border-radius: 10px; /* انحناء حواف المسار */
+  background-color: #f1f1f1;
+  border-radius: 10px;
 }

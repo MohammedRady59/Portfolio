@@ -1,6 +1,6 @@
 import Model from "../UI/Model";
 import SkillCloud from "../UI/SkillCloud";
-
+import me from "../../assets/Img/me.png";
 function About() {
   return (
     <div className=" ">
@@ -30,10 +30,13 @@ function About() {
               </p>
             </div>
           </div>
-          <div
-            className="me bg-hero-pattern md:h-[300px]  md:w-[400px] w-[200px] h-[150px] "
-            data-aos="fade-left"
-          ></div>
+          <div className=" " data-aos="fade-left">
+            <img
+              src={me}
+              alt="my-image"
+              className=" me  md:h-[300px]  md:w-[400px] w-[200px] h-[250px] object-cover"
+            />
+          </div>
         </div>
       </div>
       <div className=" pb-8">
