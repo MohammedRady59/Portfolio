@@ -20,9 +20,9 @@ function Home() {
     };
   }, []);
   return (
-    <div className="h-screen w-full flex  ">
+    <div className="md:h-screen h-[80vh] w-full flex  ">
       <An />
-      <div className="container text-white  flex flex-col justify-center">
+      <div className="container text-white  flex flex-col justify-center ">
         <p className="text-xl text-customBlue py-4">Hi, my name is</p>
         <h1
           className="name font-lota cursor-fancy text-xl md:text-7xl"
@@ -83,9 +83,6 @@ function Home() {
           >
             <Mail size={32} />
           </a>
-        </div>
-        <div className="text-center absolute  left-1/2 bottom-5 -translate-y-1/2 -translate-x-1/2">
-          <p>Build by Mohamed Rady ♡</p>
         </div>
       </div>
     </div>
