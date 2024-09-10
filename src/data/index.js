@@ -1,5 +1,15 @@
 export const project = [
   {
+    name: "Social-App",
+    details:
+      " Developed a Next.js application using Redux Toolkit for state management, React Hook Form for form handling, and Axios for API interactions. The platform features a userauthentication system allowing users to log in, view their own and others' posts, andmanage posts and comments. Implemented robust functionalities for post creation,deletion, and commenting.",
+    skills:
+      "NextJs - Typescript - Reduxjs/toolkit- TaillwindCSS - React-hook-form - Axios - headlessui ",
+    demo: "https://social-app-khaki-seven.vercel.app/",
+    repo: "https://github.com/MohammedRady59/Social-App",
+  },
+
+  {
     name: "Frech Cart",
     details:
       " Is a full e-commerce web application using React.js.This project’s state management was achieved using only ContextAPI to leverage its potentials to the max. A real-world payment gateway (Stripe) was implemented in this project.",
@@ -7,6 +17,15 @@ export const project = [
       "ReactJs - TaillwindCSS- AOS Library - Axios - React Query - React Slick",
     demo: "https://fresh-cart-seven-gilt.vercel.app/",
     repo: "https://github.com/MohammedRady59/Fresh-Cart",
+  },
+  {
+    name: "Visual-Studio-Code-Clone",
+    details:
+      " I've developed a lightweight code editor similar to Visual Studio Code using React,TypeScript, Tailwind CSS, and Redux. The project features local data management withcustom page data and employs UUID for unique ID generation, ensuring robust andorganized state handling..",
+    skills:
+      "ReactJs - Typescript - Reduxjs/toolkit- TaillwindCSS- UUID - React-resizable-panels - React-syntax-highlighter",
+    demo: "https://visual-studio-code-clone-kappa.vercel.app/",
+    repo: "https://github.com/MohammedRady59/Visual-Studio-Code-Clone",
   },
   {
     name: "CRUD System TS",

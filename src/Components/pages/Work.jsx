@@ -1,4 +1,6 @@
 import photo1 from "../../assets/Img/crud.png";
+import next from "../../assets/Img/Next.png";
+import vs from "../../assets/Img/Vs.png";
 import photo2 from "../../assets/Img/custmor.png";
 import photo3 from "../../assets/Img/footcap.png";
 import photo4 from "../../assets/Img/frech.png";
@@ -10,7 +12,9 @@ import { Github, Link, SquareArrowOutUpRight } from "lucide-react";
 import { project } from "../../data";
 function Work() {
   const images = [
+    next,
     photo4,
+    vs,
     photo1,
     photo5,
     photo7,
