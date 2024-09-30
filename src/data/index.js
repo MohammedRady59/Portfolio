@@ -8,7 +8,6 @@ export const project = [
     demo: "https://social-app-khaki-seven.vercel.app/",
     repo: "https://github.com/MohammedRady59/Social-App",
   },
-
   {
     name: "Frech Cart",
     details:
@@ -17,6 +16,15 @@ export const project = [
       "ReactJs - TaillwindCSS- AOS Library - Axios - React Query - React Slick",
     demo: "https://fresh-cart-seven-gilt.vercel.app/",
     repo: "https://github.com/MohammedRady59/Fresh-Cart",
+  },
+  {
+    name: "Al-Maoza",
+    details:
+      "Programming Ongoing charity for all dead Muslims. The site is about the Noble Qur’an, interpretation of the Qur’an, hadiths, morning and evening remembrances, and praises.",
+    skills:
+      "React Js - Typescript - ReactQuery- TaillwindCSS - Axios - headlessui-React Hot Toast ",
+    demo: "https://quran-kareem-eta.vercel.app/",
+    repo: "https://github.com/MohammedRady59/Quran-Kareem",
   },
   {
     name: "Visual-Studio-Code-Clone",

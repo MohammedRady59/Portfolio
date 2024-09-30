@@ -1,4 +1,5 @@
 import photo1 from "../../assets/Img/crud.png";
+import quran from "../../assets/Img/quran.png";
 import next from "../../assets/Img/Next.png";
 import vs from "../../assets/Img/Vs.png";
 import photo2 from "../../assets/Img/custmor.png";
@@ -14,6 +15,7 @@ function Work() {
   const images = [
     next,
     photo4,
+    quran,
     vs,
     photo1,
     photo5,

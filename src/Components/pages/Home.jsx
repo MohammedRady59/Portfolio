@@ -34,7 +34,7 @@ function Home() {
           I AM A <span className="moveLetter text-customBlue"></span>
         </h1>
         <a
-          href="https://drive.google.com/file/d/1IP231VEwGyRWyS9EVvV8uUrVxrCl3Ry0/view?usp=sharing"
+          href="https://drive.google.com/file/d/1nW-8ljZ0nQRe3irpNYauCWoMfX5Uw2EV/view?usp=sharing"
           target="_blank"
           className="w-fit"
         >
