@@ -11,7 +11,6 @@ function Navbar() {
   const closeMenu = () => {
     setIsMenuOpen(false);
   };
-
   return (
     <div className="w-full font-nav py-4 text-white bg-[#111827] md:fixed relative z-30 border-b shadow-lg">
       <nav className="container">

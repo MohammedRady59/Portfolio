@@ -32,7 +32,7 @@ function Work() {
     photo2,
   ];
   return (
-    <div className="bg-head ">
+    <div className="bg-head s">
       <div className="container   ">
         <div className="  text-white md:py-60 py-10  font-nav ">
           <h2 className="flex items-center gap-2 md:text-3xl text-xl ">
