@@ -9,14 +9,20 @@ import photo5 from "../../assets/Img/ftwk.png";
 import photo6 from "../../assets/Img/gameover.png";
 import photo7 from "../../assets/Img/plastine.png";
 import photo8 from "../../assets/Img/yummy.png";
+import todo from "../../assets/Img/Todo.png";
+import hookbank from "../../assets/Img/hookBank.png";
+import chat from "../../assets/Img/chat.png";
 import { Github, Link, SquareArrowOutUpRight } from "lucide-react";
 import { project } from "../../data";
 function Work() {
   const images = [
+    todo,
     next,
     photo4,
     quran,
+    chat,
     vs,
+    hookbank,
     photo1,
     photo5,
     photo7,

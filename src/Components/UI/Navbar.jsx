@@ -8,10 +8,14 @@ function Navbar() {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
+
   return (
-    <div className=" w-full font-nav py-4 text-white bg-[#111827]  md:fixed relative z-30 border-b shadow-lg  ">
+    <div className="w-full font-nav py-4 text-white bg-[#111827] md:fixed relative z-30 border-b shadow-lg">
       <nav className="container">
-        <div className="flex flex-wrap items-center justify-between mx-auto  py-4">
+        <div className="flex flex-wrap items-center justify-between mx-auto py-4">
           <h1 className="flex items-center space-x-3 rtl:space-x-reverse">
             <Link
               to="/"
@@ -20,10 +24,10 @@ function Navbar() {
               MOHAMED RADY
             </Link>
           </h1>
-          <div className="flex  space-x-3 md:space-x-0 ">
+          <div className="flex space-x-3 md:space-x-0">
             <button
               type="button"
-              className="block items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden  focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+              className="block items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
               onClick={handleMenuToggle}
             >
               <span className="sr-only">Open main menu</span>
@@ -49,16 +53,21 @@ function Navbar() {
               isMenuOpen ? "block" : "hidden"
             }`}
           >
-            <ul className="flex flex-col font-medium text-white p-4 md:p-0 mt-4 border border-gray-100 rounded-lg  md:space-x-8  md:flex-row md:mt-0 md:border-0 bg-[#111827]">
+            <ul className="flex flex-col font-medium text-white p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:space-x-8 md:flex-row md:mt-0 md:border-0 bg-[#111827]">
               <li>
-                <NavLink to="/" className="block py-2   px-3 md:p-0  rounded">
+                <NavLink
+                  to="/"
+                  className="block py-2 px-3 md:p-0 rounded"
+                  onClick={closeMenu}
+                >
                   Home
                 </NavLink>
               </li>
               <li>
                 <NavLink
                   to="about"
-                  className="block py-2 px-3 md:p-0  rounded "
+                  className="block py-2 px-3 md:p-0 rounded"
+                  onClick={closeMenu}
                 >
                   About
                 </NavLink>
@@ -66,7 +75,8 @@ function Navbar() {
               <li>
                 <NavLink
                   to="work"
-                  className="block py-2 px-3 md:p-0 rounded   "
+                  className="block py-2 px-3 md:p-0 rounded"
+                  onClick={closeMenu} // Close menu on click
                 >
                   Work
                 </NavLink>
@@ -74,7 +84,8 @@ function Navbar() {
               <li>
                 <NavLink
                   to="contact"
-                  className="block py-2 px-3 md:p-0  rounded      "
+                  className="block py-2 px-3 md:p-0 rounded"
+                  onClick={closeMenu}
                 >
                   Contact
                 </NavLink>

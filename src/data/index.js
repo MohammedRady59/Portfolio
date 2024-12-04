@@ -1,5 +1,14 @@
 export const project = [
   {
+    name: "Todo-App",
+    details:
+      " An application called the TODO project was created to assist you in managing your everyday duties and activities. You can add new tasks, mark them as finished, and change or remove them as necessary. Additionally, the app offers the ability to view all newly added activities, which facilitates efficient task prioritisation and progress tracking.",
+    skills:
+      "NextJs - Typescript - Reduxjs/toolkit - shadcn/ui - React-hook-form - MongoDB - Clerk - Prisma ",
+    demo: "https://todo-app-next-js-mongo-db.vercel.app/",
+    repo: "https://github.com/MohammedRady59/TODO-with-Next.js-MongoDB",
+  },
+  {
     name: "Social-App",
     details:
       " Developed a Next.js application using Redux Toolkit for state management, React Hook Form for form handling, and Axios for API interactions. The platform features a userauthentication system allowing users to log in, view their own and others' posts, andmanage posts and comments. Implemented robust functionalities for post creation,deletion, and commenting.",
@@ -27,6 +36,14 @@ export const project = [
     repo: "https://github.com/MohammedRady59/Quran-Kareem",
   },
   {
+    name: "ChatApp-Firebase",
+    details:
+      "This project is a real-time chat application built using React and Firebase. Users can enter a room by providing a room name and engage in live conversations, with Firebase handling real-time data synchronization and storage.",
+    skills: "React Js - Firebace - TaillwindCSS - React Hot Toast ",
+    demo: "https://chat-app-firebase-delta.vercel.app/",
+    repo: "https://github.com/MohammedRady59/ChatApp-Firebase",
+  },
+  {
     name: "Visual-Studio-Code-Clone",
     details:
       " I've developed a lightweight code editor similar to Visual Studio Code using React,TypeScript, Tailwind CSS, and Redux. The project features local data management withcustom page data and employs UUID for unique ID generation, ensuring robust andorganized state handling..",
@@ -34,6 +51,14 @@ export const project = [
       "ReactJs - Typescript - Reduxjs/toolkit- TaillwindCSS- UUID - React-resizable-panels - React-syntax-highlighter",
     demo: "https://visual-studio-code-clone-kappa.vercel.app/",
     repo: "https://github.com/MohammedRady59/Visual-Studio-Code-Clone",
+  },
+  {
+    name: "HooBank",
+    details:
+      " HooBank is single page website with a modren UI/UX design about new payment method for hoo bank.",
+    skills: " ReactJs - TaillwindCSS",
+    demo: "https://hoobank-ten-snowy.vercel.app/",
+    repo: "https://github.com/MohammedRady59/Hoobank",
   },
   {
     name: "CRUD System TS",
