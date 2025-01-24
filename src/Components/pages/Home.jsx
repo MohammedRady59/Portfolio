@@ -14,7 +14,6 @@ function Home() {
 
     const typed = new Typed(".moveLetter", options);
 
-    // Clean up on component unmount
     return () => {
       typed.destroy();
     };
@@ -34,7 +33,7 @@ function Home() {
           I AM A <span className="moveLetter text-customBlue"></span>
         </h1>
         <a
-          href="https://drive.google.com/file/d/1mD5RCJZyR_8D0kE0536PxsoMwjhQe1i0/view?usp=sharing"
+          href="https://drive.google.com/file/d/1l1xlnOc20KWBpT8H51RuvVa5bC31pa8Q/view?usp=sharing"
           target="_blank"
           className="w-fit"
         >

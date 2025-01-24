@@ -1,5 +1,14 @@
 export const project = [
   {
+    name: "BookPoint",
+    details:
+      "BookPoint is a web-based app that lets users post reviews, rate specific books, and browse and buy books.",
+    skills:
+      "NextJs - Typescript - Reduxjs/toolkitQuery - MUI - React-hook-form - API ",
+    demo: "https://bookpoint.vercel.app/",
+    repo: "https://github.com/MohammedRady59/BOOKPOINT",
+  },
+  {
     name: "Todo-App",
     details:
       " An application called the TODO project was created to assist you in managing your everyday duties and activities. You can add new tasks, mark them as finished, and change or remove them as necessary. Additionally, the app offers the ability to view all newly added activities, which facilitates efficient task prioritisation and progress tracking.",
@@ -116,4 +125,36 @@ export const project = [
     demo: "https://mohammedrady59.github.io/Customer-Service/",
     repo: "https://github.com/MohammedRady59/Customer-Service",
   },
+];
+import photo1 from "../assets/Img/crud.png";
+import quran from "../assets/Img/quran.png";
+import next from "../assets/Img/Next.png";
+import vs from "../assets/Img/Vs.png";
+import photo2 from "../assets/Img/custmor.png";
+import photo3 from "../assets/Img/footcap.png";
+import photo4 from "../assets/Img/frech.png";
+import photo5 from "../assets/Img/ftwk.png";
+import photo6 from "../assets/Img/gameover.png";
+import photo7 from "../assets/Img/plastine.png";
+import photo8 from "../assets/Img/yummy.png";
+import todo from "../assets/Img/Todo.png";
+import hookbank from "../assets/Img/hookBank.png";
+import chat from "../assets/Img/chat.png";
+import bookPoint from "../assets/Img/bookPoint.png";
+export const images = [
+  bookPoint,
+  todo,
+  next,
+  photo4,
+  quran,
+  chat,
+  vs,
+  hookbank,
+  photo1,
+  photo5,
+  photo7,
+  photo6,
+  photo8,
+  photo3,
+  photo2,
 ];

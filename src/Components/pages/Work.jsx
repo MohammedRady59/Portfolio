@@ -1,36 +1,6 @@
-import photo1 from "../../assets/Img/crud.png";
-import quran from "../../assets/Img/quran.png";
-import next from "../../assets/Img/Next.png";
-import vs from "../../assets/Img/Vs.png";
-import photo2 from "../../assets/Img/custmor.png";
-import photo3 from "../../assets/Img/footcap.png";
-import photo4 from "../../assets/Img/frech.png";
-import photo5 from "../../assets/Img/ftwk.png";
-import photo6 from "../../assets/Img/gameover.png";
-import photo7 from "../../assets/Img/plastine.png";
-import photo8 from "../../assets/Img/yummy.png";
-import todo from "../../assets/Img/Todo.png";
-import hookbank from "../../assets/Img/hookBank.png";
-import chat from "../../assets/Img/chat.png";
 import { Github, Link, SquareArrowOutUpRight } from "lucide-react";
-import { project } from "../../data";
+import { images, project } from "../../data";
 function Work() {
-  const images = [
-    todo,
-    next,
-    photo4,
-    quran,
-    chat,
-    vs,
-    hookbank,
-    photo1,
-    photo5,
-    photo7,
-    photo6,
-    photo8,
-    photo3,
-    photo2,
-  ];
   return (
     <div className="bg-head s">
       <div className="container   ">
