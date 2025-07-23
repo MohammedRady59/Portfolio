@@ -1,5 +1,14 @@
 export const project = [
   {
+    name: "Ecommerce",
+    details:
+      " Is a full e-commerce web application using Nextjs.This project’s state management was achieved using only ContextAPI to leverage its potentials to the max. A real-world payment gateway (Stripe) was implemented in this project.",
+    skills:
+      "NextJS - Reduxjs/toolkit - TypeScript - MUI - React-hook-form - React Slick",
+    demo: "https://fresh-cart-v2-tau.vercel.app/",
+    repo: "https://github.com/MohammedRady59/FreshCart-V2",
+  },
+  {
     name: "BookPoint",
     details:
       "BookPoint is a web-based app that lets users post reviews, rate specific books, and browse and buy books.",
@@ -26,15 +35,7 @@ export const project = [
     demo: "https://social-app-khaki-seven.vercel.app/",
     repo: "https://github.com/MohammedRady59/Social-App",
   },
-  {
-    name: "Frech Cart",
-    details:
-      " Is a full e-commerce web application using React.js.This project’s state management was achieved using only ContextAPI to leverage its potentials to the max. A real-world payment gateway (Stripe) was implemented in this project.",
-    skills:
-      "ReactJs - TaillwindCSS- AOS Library - Axios - React Query - React Slick",
-    demo: "https://fresh-cart-seven-gilt.vercel.app/",
-    repo: "https://github.com/MohammedRady59/Fresh-Cart",
-  },
+
   {
     name: "Al-Maoza",
     details:
@@ -132,7 +133,7 @@ import next from "../assets/Img/Next.png";
 import vs from "../assets/Img/Vs.png";
 import photo2 from "../assets/Img/custmor.png";
 import photo3 from "../assets/Img/footcap.png";
-import photo4 from "../assets/Img/frech.png";
+import photo4 from "../assets/Img/FrechCartV2.png";
 import photo5 from "../assets/Img/ftwk.png";
 import photo6 from "../assets/Img/gameover.png";
 import photo7 from "../assets/Img/plastine.png";
@@ -142,10 +143,10 @@ import hookbank from "../assets/Img/hookBank.png";
 import chat from "../assets/Img/chat.png";
 import bookPoint from "../assets/Img/bookPoint.png";
 export const images = [
+  photo4,
   bookPoint,
   todo,
   next,
-  photo4,
   quran,
   chat,
   vs,

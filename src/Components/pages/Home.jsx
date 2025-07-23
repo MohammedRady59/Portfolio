@@ -33,7 +33,7 @@ function Home() {
           I AM A <span className="moveLetter text-customBlue"></span>
         </h1>
         <a
-          href="https://drive.google.com/file/d/1l1xlnOc20KWBpT8H51RuvVa5bC31pa8Q/view?usp=sharing"
+          href="https://drive.google.com/file/d/1w3v3auNI20EPZ0N0fUnvtAYnkDnFuwHI/view?usp=sharing"
           target="_blank"
           className="w-fit"
         >
