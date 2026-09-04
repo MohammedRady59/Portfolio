@@ -64,7 +64,7 @@ function ContactSection() {
         particleCount: 80,
         spread: 70,
         origin: { y: 0.6 },
-        colors: ["#38bdf8", "#818cf8", "#34d399", "#f43f5e"],
+        colors: ["#10b981", "#34d399", "#2dd4bf", "#f59e0b"],
       });
     } catch (err) {
       console.error(err);
@@ -75,12 +75,12 @@ function ContactSection() {
 
   return (
     <section id="contact" className="py-24 relative overflow-hidden">
-      <div className="glow-orb w-[28rem] h-[28rem] bg-indigo-500/10 bottom-0 left-1/4"></div>
+      <div className="glow-orb w-[28rem] h-[28rem] bg-emerald-500/10 bottom-0 left-1/4"></div>
 
       <div className="container mx-auto px-4 relative z-10">
         {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto mb-16" data-aos="fade-up">
-          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg glass-card text-sky-400 text-xs font-nav mb-3">
+          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg glass-card text-emerald-400 text-xs font-nav mb-3">
             <Sparkles className="w-3.5 h-3.5" />
             <span>05. GET IN TOUCH</span>
           </div>
@@ -90,7 +90,7 @@ function ContactSection() {
           <p className="text-slate-400 text-sm sm:text-base">
             Have a project in mind, a freelance inquiry, or want to say hello? Drop me a message!
           </p>
-          <div className="h-1 w-20 bg-gradient-to-r from-sky-400 to-indigo-500 mx-auto rounded-full mt-4"></div>
+          <div className="h-1 w-20 bg-gradient-to-r from-emerald-400 to-teal-500 mx-auto rounded-full mt-4"></div>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 max-w-6xl mx-auto">
@@ -102,16 +102,16 @@ function ContactSection() {
               </h3>
 
               {/* Email Card with 1-click Copy */}
-              <div className="flex items-start justify-between p-4 rounded-2xl bg-slate-900/60 border border-white/5 hover:border-sky-500/30 transition-all">
+              <div className="flex items-start justify-between p-4 rounded-2xl bg-[#0d1512]/70 border border-white/5 hover:border-emerald-500/30 transition-all">
                 <div className="flex items-center gap-3">
-                  <div className="p-2.5 rounded-xl bg-sky-500/10 text-sky-400">
+                  <div className="p-2.5 rounded-xl bg-emerald-500/10 text-emerald-400">
                     <Mail className="w-5 h-5" />
                   </div>
                   <div>
                     <span className="text-xs text-slate-400 font-nav block">Email Address</span>
                     <a
                       href="mailto:mrady0772@gmail.com"
-                      className="text-sm font-medium text-white hover:text-sky-300 transition-colors break-all"
+                      className="text-sm font-medium text-white hover:text-emerald-300 transition-colors break-all"
                     >
                       mrady0772@gmail.com
                     </a>
@@ -119,7 +119,7 @@ function ContactSection() {
                 </div>
                 <button
                   onClick={handleCopyEmail}
-                  className="p-2 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 transition-colors"
+                  className="p-2 rounded-lg bg-[#131f1a] hover:bg-[#1a2c25] text-slate-300 transition-colors"
                   title="Copy email"
                 >
                   {copied ? (
@@ -135,7 +135,7 @@ function ContactSection() {
                 href="https://wa.me/+2001280761258"
                 target="_blank"
                 rel="noreferrer"
-                className="flex items-center gap-3 p-4 rounded-2xl bg-slate-900/60 border border-white/5 hover:border-emerald-500/30 transition-all group"
+                className="flex items-center gap-3 p-4 rounded-2xl bg-[#0d1512]/70 border border-white/5 hover:border-emerald-500/30 transition-all group"
               >
                 <div className="p-2.5 rounded-xl bg-emerald-500/10 text-emerald-400 group-hover:scale-110 transition-transform">
                   <MessageCircle className="w-5 h-5" />
@@ -149,8 +149,8 @@ function ContactSection() {
               </a>
 
               {/* Location */}
-              <div className="flex items-center gap-3 p-4 rounded-2xl bg-slate-900/60 border border-white/5">
-                <div className="p-2.5 rounded-xl bg-indigo-500/10 text-indigo-400">
+              <div className="flex items-center gap-3 p-4 rounded-2xl bg-[#0d1512]/70 border border-white/5">
+                <div className="p-2.5 rounded-xl bg-teal-500/10 text-teal-400">
                   <MapPin className="w-5 h-5" />
                 </div>
                 <div>
@@ -162,8 +162,8 @@ function ContactSection() {
               </div>
 
               {/* Response Time Badge */}
-              <div className="flex items-center gap-2 p-3 rounded-xl bg-slate-800/40 border border-white/5 text-xs text-slate-400 font-nav">
-                <Clock className="w-4 h-4 text-sky-400" />
+              <div className="flex items-center gap-2 p-3 rounded-xl bg-[#131f1a]/60 border border-white/5 text-xs text-slate-400 font-nav">
+                <Clock className="w-4 h-4 text-emerald-400" />
                 <span>Fast response — usually within 2 to 4 hours</span>
               </div>
             </div>
@@ -186,7 +186,7 @@ function ContactSection() {
                     type="text"
                     placeholder="John Doe"
                     {...register("name")}
-                    className="w-full px-4 py-3 rounded-xl glass-card text-white text-sm placeholder-slate-500 border border-white/10 focus:border-sky-400 focus:outline-none transition-all"
+                    className="w-full px-4 py-3 rounded-xl glass-card text-white text-sm placeholder-slate-500 border border-white/10 focus:border-emerald-400 focus:outline-none transition-all"
                   />
                   {errors.name && (
                     <span className="text-xs text-rose-400 font-nav mt-1 block">
@@ -204,7 +204,7 @@ function ContactSection() {
                     type="email"
                     placeholder="john@example.com"
                     {...register("email")}
-                    className="w-full px-4 py-3 rounded-xl glass-card text-white text-sm placeholder-slate-500 border border-white/10 focus:border-sky-400 focus:outline-none transition-all"
+                    className="w-full px-4 py-3 rounded-xl glass-card text-white text-sm placeholder-slate-500 border border-white/10 focus:border-emerald-400 focus:outline-none transition-all"
                   />
                   {errors.email && (
                     <span className="text-xs text-rose-400 font-nav mt-1 block">
@@ -222,7 +222,7 @@ function ContactSection() {
                     rows={5}
                     placeholder="Tell me about your project, timeline, or inquiry..."
                     {...register("text")}
-                    className="w-full px-4 py-3 rounded-xl glass-card text-white text-sm placeholder-slate-500 border border-white/10 focus:border-sky-400 focus:outline-none transition-all resize-none"
+                    className="w-full px-4 py-3 rounded-xl glass-card text-white text-sm placeholder-slate-500 border border-white/10 focus:border-emerald-400 focus:outline-none transition-all resize-none"
                   ></textarea>
                   {errors.text && (
                     <span className="text-xs text-rose-400 font-nav mt-1 block">
@@ -249,7 +249,7 @@ function ContactSection() {
                   <button
                     type="submit"
                     disabled={status === "loading"}
-                    className="flex-1 inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl bg-gradient-to-r from-sky-500 to-indigo-600 hover:from-sky-400 hover:to-indigo-500 text-white font-medium text-sm shadow-glow hover:shadow-glow-lg transition-all duration-300 hover:scale-[1.02] active:scale-[0.98] disabled:opacity-50"
+                    className="flex-1 inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-400 hover:to-teal-500 text-white font-medium text-sm shadow-glow hover:shadow-glow-lg transition-all duration-300 hover:scale-[1.02] active:scale-[0.98] disabled:opacity-50"
                   >
                     {status === "loading" ? (
                       <>

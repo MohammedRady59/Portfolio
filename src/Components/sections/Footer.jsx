@@ -16,7 +16,7 @@ function Footer() {
   };
 
   return (
-    <footer className="relative border-t border-white/10 bg-slate-950/80 pt-16 pb-12 overflow-hidden">
+    <footer className="relative border-t border-white/10 bg-[#060907]/90 pt-16 pb-12 overflow-hidden">
       <div className="container mx-auto px-4 relative z-10">
         <div className="flex flex-col md:flex-row items-center justify-between gap-8 mb-12">
           {/* Logo & Headline */}
@@ -34,22 +34,22 @@ function Footer() {
 
           {/* Quick Nav Links */}
           <nav className="flex flex-wrap justify-center gap-6 text-xs sm:text-sm font-nav text-slate-400">
-            <a href="#hero" className="hover:text-sky-400 transition-colors">
+            <a href="#hero" className="hover:text-emerald-400 transition-colors">
               Home
             </a>
-            <a href="#about" className="hover:text-sky-400 transition-colors">
+            <a href="#about" className="hover:text-emerald-400 transition-colors">
               About
             </a>
-            <a href="#skills" className="hover:text-sky-400 transition-colors">
+            <a href="#skills" className="hover:text-emerald-400 transition-colors">
               Skills
             </a>
-            <a href="#experience" className="hover:text-sky-400 transition-colors">
+            <a href="#experience" className="hover:text-emerald-400 transition-colors">
               Experience
             </a>
-            <a href="#projects" className="hover:text-sky-400 transition-colors">
+            <a href="#projects" className="hover:text-emerald-400 transition-colors">
               Projects
             </a>
-            <a href="#contact" className="hover:text-sky-400 transition-colors">
+            <a href="#contact" className="hover:text-emerald-400 transition-colors">
               Contact
             </a>
           </nav>
@@ -61,7 +61,7 @@ function Footer() {
               target="_blank"
               rel="noreferrer"
               aria-label="GitHub Profile"
-              className="p-2.5 rounded-xl glass-card text-slate-400 hover:text-white hover:border-sky-500/30 transition-all"
+              className="p-2.5 rounded-xl glass-card text-slate-400 hover:text-white hover:border-emerald-500/30 transition-all"
             >
               <Github className="w-4 h-4" />
             </a>
@@ -70,7 +70,7 @@ function Footer() {
               target="_blank"
               rel="noreferrer"
               aria-label="LinkedIn Profile"
-              className="p-2.5 rounded-xl glass-card text-slate-400 hover:text-sky-400 hover:border-sky-500/30 transition-all"
+              className="p-2.5 rounded-xl glass-card text-slate-400 hover:text-emerald-400 hover:border-emerald-500/30 transition-all"
             >
               <Linkedin className="w-4 h-4" />
             </a>
@@ -86,7 +86,7 @@ function Footer() {
             <a
               href="mailto:mrady0772@gmail.com"
               aria-label="Send Email"
-              className="p-2.5 rounded-xl glass-card text-slate-400 hover:text-indigo-400 hover:border-indigo-500/30 transition-all"
+              className="p-2.5 rounded-xl glass-card text-slate-400 hover:text-teal-400 hover:border-teal-500/30 transition-all"
             >
               <Mail className="w-4 h-4" />
             </a>
@@ -95,7 +95,7 @@ function Footer() {
             <button
               onClick={scrollToTop}
               aria-label="Scroll back to top"
-              className="p-2.5 rounded-xl bg-gradient-to-r from-sky-500 to-indigo-600 text-white shadow-glow hover:scale-105 transition-transform ml-2"
+              className="p-2.5 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-600 text-white shadow-glow hover:scale-105 transition-transform ml-2"
               title="Back to top"
             >
               <ArrowUp className="w-4 h-4" />

@@ -21,12 +21,12 @@ function LandingPage() {
   }, []);
 
   return (
-    <div className="relative min-h-screen bg-[#080c14] text-slate-100 selection:bg-sky-500 selection:text-white">
+    <div className="relative min-h-screen bg-[#080c0a] text-slate-100 selection:bg-emerald-500 selection:text-white">
       {/* Interactive Radial Spotlight following cursor */}
       <div
         className="pointer-events-none fixed inset-0 z-30 transition-opacity duration-300 opacity-60 hidden md:block"
         style={{
-          background: `radial-gradient(650px circle at ${mousePos.x}px ${mousePos.y}px, rgba(56, 189, 248, 0.07), transparent 80%)`,
+          background: `radial-gradient(650px circle at ${mousePos.x}px ${mousePos.y}px, rgba(16, 185, 129, 0.08), transparent 80%)`,
         }}
       />
 

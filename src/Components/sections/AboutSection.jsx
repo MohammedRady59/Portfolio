@@ -13,12 +13,12 @@ import {
 function AboutSection() {
   const coreValues = [
     {
-      icon: <Zap className="w-5 h-5 text-sky-400" />,
+      icon: <Zap className="w-5 h-5 text-emerald-400" />,
       title: "Fast & Optimized",
       description: "Writing lightweight, optimized code with SSR/SSG and fast load speeds.",
     },
     {
-      icon: <Layout className="w-5 h-5 text-indigo-400" />,
+      icon: <Layout className="w-5 h-5 text-teal-400" />,
       title: "Responsive & Modern UI",
       description: "Crafting pixel-perfect layouts that look great on any screen or device.",
     },
@@ -28,7 +28,7 @@ function AboutSection() {
       description: "Expertise with Redux Toolkit, Context API, RTK Query, and React Hook Form.",
     },
     {
-      icon: <Code2 className="w-5 h-5 text-purple-400" />,
+      icon: <Code2 className="w-5 h-5 text-teal-300" />,
       title: "Clean Architecture",
       description: "Structured component design, TypeScript types, and modular codebases.",
     },
@@ -37,19 +37,19 @@ function AboutSection() {
   return (
     <section id="about" className="py-24 relative overflow-hidden">
       {/* Background glow orb */}
-      <div className="glow-orb w-80 h-80 bg-indigo-500/10 top-1/2 left-0 -translate-y-1/2"></div>
+      <div className="glow-orb w-80 h-80 bg-emerald-500/10 top-1/2 left-0 -translate-y-1/2"></div>
 
       <div className="container mx-auto px-4 relative z-10">
         {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto mb-16" data-aos="fade-up">
-          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg glass-card text-sky-400 text-xs font-nav mb-3">
+          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg glass-card text-emerald-400 text-xs font-nav mb-3">
             <Sparkles className="w-3.5 h-3.5" />
             <span>01. DISCOVER</span>
           </div>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight mb-4">
             About <span className="text-gradient">Mohamed Rady</span>
           </h2>
-          <div className="h-1 w-20 bg-gradient-to-r from-sky-400 to-indigo-500 mx-auto rounded-full"></div>
+          <div className="h-1 w-20 bg-gradient-to-r from-emerald-400 to-teal-500 mx-auto rounded-full"></div>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
@@ -60,20 +60,20 @@ function AboutSection() {
           >
             <div className="relative group w-full max-w-sm sm:max-w-md">
               {/* Outer decorative gradient frame */}
-              <div className="absolute -inset-1 rounded-3xl bg-gradient-to-r from-sky-500 via-indigo-500 to-cyan-400 opacity-30 group-hover:opacity-75 blur-xl transition duration-500"></div>
+              <div className="absolute -inset-1 rounded-3xl bg-gradient-to-r from-emerald-500 via-teal-500 to-emerald-400 opacity-30 group-hover:opacity-75 blur-xl transition duration-500"></div>
 
               <div className="relative glass-card p-6 sm:p-8 rounded-3xl border border-white/10 overflow-hidden">
-                <div className="relative mx-auto mb-6 w-48 h-56 sm:w-56 sm:h-64 rounded-2xl overflow-hidden bg-slate-800/80 border border-white/10 shadow-2xl">
+                <div className="relative mx-auto mb-6 w-48 h-56 sm:w-56 sm:h-64 rounded-2xl overflow-hidden bg-[#0d1512] border border-white/10 shadow-2xl">
                   <img
                     src={me}
                     alt="Mohamed Rady"
                     className="w-full h-full object-cover object-top filter contrast-[1.05] brightness-95 group-hover:scale-105 transition-transform duration-500"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent"></div>
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#080c0a]/80 via-transparent to-transparent"></div>
                   
                   {/* Floating location tag */}
-                  <div className="absolute bottom-3 left-3 right-3 flex items-center justify-between text-xs text-slate-300 font-nav bg-slate-900/80 backdrop-blur-md px-3 py-1.5 rounded-lg border border-white/10">
-                    <span className="flex items-center gap-1.5 text-sky-400">
+                  <div className="absolute bottom-3 left-3 right-3 flex items-center justify-between text-xs text-slate-300 font-nav bg-[#0d1512]/90 backdrop-blur-md px-3 py-1.5 rounded-lg border border-white/10">
+                    <span className="flex items-center gap-1.5 text-emerald-400">
                       <MapPin className="w-3.5 h-3.5" /> Egypt
                     </span>
                     <span className="text-emerald-400 flex items-center gap-1">
@@ -99,7 +99,7 @@ function AboutSection() {
                   </div>
                   <div className="flex justify-between items-center py-1.5">
                     <span className="text-slate-400">Specialty:</span>
-                    <span className="text-sky-400 font-medium">React, Next.js, TypeScript</span>
+                    <span className="text-emerald-400 font-medium">React, Next.js, TypeScript</span>
                   </div>
                 </div>
               </div>
@@ -122,10 +122,10 @@ function AboutSection() {
               {coreValues.map((val, idx) => (
                 <div
                   key={idx}
-                  className="glass-card p-5 rounded-2xl border border-white/5 hover:border-sky-500/30 transition-all duration-300 hover:translate-y-[-2px]"
+                  className="glass-card p-5 rounded-2xl border border-white/5 hover:border-emerald-500/30 transition-all duration-300 hover:translate-y-[-2px]"
                 >
                   <div className="flex items-center gap-3 mb-2">
-                    <div className="p-2 rounded-xl bg-slate-800/80 border border-white/10">
+                    <div className="p-2 rounded-xl bg-[#131f1a] border border-white/10">
                       {val.icon}
                     </div>
                     <h3 className="font-semibold text-white text-base">

@@ -13,16 +13,18 @@ export default {
     },
     extend: {
       colors: {
-        darkBg: "#080c14",
-        cardBg: "#0f172a",
-        customBlue: "#38bdf8",
-        cyanGlow: "#00f0ff",
-        violetGlow: "#818cf8",
-        head: "#080c14",
+        darkBg: "#080c0a",
+        cardBg: "#0f1613",
+        emeraldAccent: "#10b981",
+        mintGlow: "#34d399",
+        customBlue: "#10b981",
+        cyanGlow: "#34d399",
+        violetGlow: "#2dd4bf",
+        head: "#080c0a",
       },
       boxShadow: {
-        glow: "0 0 25px -5px rgba(56, 189, 248, 0.4)",
-        "glow-lg": "0 0 35px -5px rgba(129, 140, 248, 0.45)",
+        glow: "0 0 25px -5px rgba(16, 185, 129, 0.45)",
+        "glow-lg": "0 0 35px -5px rgba(52, 211, 153, 0.45)",
         "card-glass": "0 8px 32px 0 rgba(0, 0, 0, 0.37)",
       },
       fontFamily: {

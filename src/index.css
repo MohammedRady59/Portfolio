@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  background-color: #080c14;
+  background-color: #080c0a;
   color: #f1f5f9;
   font-family: 'Outfit', sans-serif;
   overflow-x: hidden;
@@ -18,7 +18,7 @@ body {
 
 /* Glassmorphism Classes */
 .glass-card {
-  background: rgba(15, 23, 42, 0.65);
+  background: rgba(15, 22, 19, 0.7);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   border: 1px solid rgba(255, 255, 255, 0.08);
@@ -27,12 +27,12 @@ body {
 }
 
 .glass-card:hover {
-  border-color: rgba(56, 189, 248, 0.3);
-  box-shadow: 0 15px 35px -5px rgba(56, 189, 248, 0.15);
+  border-color: rgba(52, 211, 153, 0.35);
+  box-shadow: 0 15px 35px -5px rgba(16, 185, 129, 0.2);
 }
 
 .glass-nav {
-  background: rgba(8, 12, 20, 0.85);
+  background: rgba(8, 12, 10, 0.85);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.07);
@@ -40,19 +40,19 @@ body {
 
 /* Gradient text utility */
 .text-gradient {
-  background: linear-gradient(135deg, #ffffff 0%, #38bdf8 50%, #818cf8 100%);
+  background: linear-gradient(135deg, #ffffff 0%, #34d399 50%, #10b981 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .text-gradient-cyan {
-  background: linear-gradient(135deg, #38bdf8 0%, #00f0ff 100%);
+  background: linear-gradient(135deg, #6ee7b7 0%, #10b981 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .text-gradient-purple {
-  background: linear-gradient(135deg, #c084fc 0%, #818cf8 100%);
+  background: linear-gradient(135deg, #a7f3d0 0%, #059669 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -75,7 +75,7 @@ body {
   content: '';
   position: absolute;
   inset: -4px;
-  background: linear-gradient(45deg, #38bdf8, #818cf8, #00f0ff);
+  background: linear-gradient(45deg, #10b981, #059669, #34d399);
   border-radius: 24px;
   z-index: -1;
   filter: blur(12px);
@@ -94,14 +94,14 @@ body {
 }
 
 .tagcloud--item {
-  color: #38bdf8;
+  color: #34d399;
   font-weight: 600;
   transition: all 0.2s ease;
 }
 
 .tagcloud--item:hover {
   color: #ffffff;
-  text-shadow: 0 0 12px #38bdf8;
+  text-shadow: 0 0 12px #10b981;
 }
 
 /* Custom modern scrollbar */
@@ -111,16 +111,22 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #080c14;
+  background: #080c0a;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #1e293b;
+  background: #1c2e24;
   border-radius: 9999px;
-  border: 2px solid #080c14;
+  border: 2px solid #080c0a;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #38bdf8;
+  background: #10b981;
+}
+
+/* Force tsParticles container and canvas to be strictly transparent */
+#tsparticles,
+#tsparticles canvas {
+  background: transparent !important;
 }
 

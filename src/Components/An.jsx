@@ -27,11 +27,7 @@ const An = () => {
 
   const options = useMemo(
     () => ({
-      background: {
-        color: {
-          value: "#transparent",
-        },
-      },
+      fullScreen: false,
       fpsLimit: 120,
       interactivity: {
         events: {
@@ -41,54 +37,58 @@ const An = () => {
           },
           onHover: {
             enable: true,
-            mode: "repulse",
+            mode: "grab",
           },
         },
         modes: {
           push: {
-            quantity: 4,
+            quantity: 3,
           },
-          repulse: {
-            distance: 200,
-            duration: 0.4,
+          grab: {
+            distance: 160,
+            links: {
+              opacity: 0.4,
+              color: "#34d399",
+            },
           },
         },
       },
       particles: {
         color: {
-          value: "#51D8FF",
+          value: ["#10b981", "#34d399", "#059669"],
         },
         links: {
-          color: "#ffffff",
-          distance: 150,
+          color: "#10b981",
+          distance: 135,
           enable: true,
-          opacity: 0.5,
+          opacity: 0.25,
           width: 1,
         },
         move: {
           direction: "none",
           enable: true,
           outModes: {
-            default: "bounce",
+            default: "out",
           },
-          random: false,
-          speed: 4,
+          random: true,
+          speed: 1.2,
           straight: false,
         },
         number: {
           density: {
             enable: true,
+            area: 800,
           },
-          value: 150,
+          value: 65,
         },
         opacity: {
-          value: 0.5,
+          value: 0.45,
         },
         shape: {
           type: "circle",
         },
         size: {
-          value: 5,
+          value: { min: 1.5, max: 3 },
         },
       },
       detectRetina: true,

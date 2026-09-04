@@ -24,32 +24,32 @@ function SkillsSection() {
 
   const allSkills = [
     // Core & Languages
-    { name: "TypeScript", level: "90%", category: "core", color: "from-blue-500 to-sky-400" },
+    { name: "TypeScript", level: "90%", category: "core", color: "from-emerald-500 to-teal-400" },
     { name: "JavaScript (ES6+)", level: "95%", category: "core", color: "from-yellow-400 to-amber-500" },
     { name: "HTML5 & Semantic", level: "98%", category: "core", color: "from-orange-500 to-red-500" },
-    { name: "CSS3 & SASS", level: "95%", category: "core", color: "from-sky-400 to-blue-600" },
+    { name: "CSS3 & SASS", level: "95%", category: "core", color: "from-teal-400 to-emerald-500" },
 
     // Frameworks & State
-    { name: "React.js", level: "95%", category: "frameworks", color: "from-cyan-400 to-blue-500" },
-    { name: "Next.js (App & Pages)", level: "92%", category: "frameworks", color: "from-slate-200 to-slate-400" },
-    { name: "Redux Toolkit / RTK Query", level: "90%", category: "frameworks", color: "from-purple-500 to-indigo-500" },
+    { name: "React.js", level: "95%", category: "frameworks", color: "from-emerald-400 to-teal-500" },
+    { name: "Next.js (App & Pages)", level: "92%", category: "frameworks", color: "from-emerald-200 to-teal-400" },
+    { name: "Redux Toolkit / RTK Query", level: "90%", category: "frameworks", color: "from-emerald-500 to-teal-600" },
     { name: "TanStack React Query", level: "88%", category: "frameworks", color: "from-red-400 to-rose-600" },
-    { name: "React Router DOM", level: "92%", category: "frameworks", color: "from-pink-500 to-rose-500" },
+    { name: "React Router DOM", level: "92%", category: "frameworks", color: "from-teal-400 to-emerald-400" },
     { name: "React Hook Form & Yup", level: "92%", category: "frameworks", color: "from-emerald-400 to-teal-500" },
 
     // Styling & UI Systems
-    { name: "Tailwind CSS", level: "95%", category: "ui", color: "from-cyan-400 to-teal-400" },
-    { name: "Shadcn / UI", level: "88%", category: "ui", color: "from-zinc-200 to-slate-400" },
-    { name: "Headless UI", level: "85%", category: "ui", color: "from-sky-400 to-indigo-400" },
-    { name: "Material UI (MUI)", level: "85%", category: "ui", color: "from-blue-400 to-indigo-600" },
-    { name: "Bootstrap 5", level: "90%", category: "ui", color: "from-purple-600 to-indigo-700" },
+    { name: "Tailwind CSS", level: "95%", category: "ui", color: "from-teal-400 to-emerald-400" },
+    { name: "Shadcn / UI", level: "88%", category: "ui", color: "from-zinc-200 to-emerald-400" },
+    { name: "Headless UI", level: "85%", category: "ui", color: "from-emerald-400 to-teal-500" },
+    { name: "Material UI (MUI)", level: "85%", category: "ui", color: "from-teal-500 to-emerald-600" },
+    { name: "Bootstrap 5", level: "90%", category: "ui", color: "from-teal-600 to-emerald-700" },
 
     // Tools & Integrations
     { name: "Git & GitHub", level: "92%", category: "tools", color: "from-orange-500 to-rose-500" },
     { name: "Firebase (Firestore/Auth)", level: "82%", category: "tools", color: "from-amber-400 to-orange-500" },
     { name: "MongoDB & Prisma", level: "80%", category: "tools", color: "from-emerald-500 to-teal-600" },
-    { name: "RESTful APIs & Axios", level: "94%", category: "tools", color: "from-sky-500 to-blue-600" },
-    { name: "Vite & Modern Tooling", level: "90%", category: "tools", color: "from-purple-400 to-yellow-400" },
+    { name: "RESTful APIs & Axios", level: "94%", category: "tools", color: "from-emerald-500 to-teal-600" },
+    { name: "Vite & Modern Tooling", level: "90%", category: "tools", color: "from-teal-400 to-emerald-400" },
     { name: "Postman API Testing", level: "88%", category: "tools", color: "from-orange-400 to-amber-500" },
   ];
 
@@ -59,13 +59,13 @@ function SkillsSection() {
       : allSkills.filter((skill) => skill.category === activeTab);
 
   return (
-    <section id="skills" className="py-24 relative overflow-hidden bg-slate-950/40">
-      <div className="glow-orb w-96 h-96 bg-cyan-500/10 bottom-0 right-0"></div>
+    <section id="skills" className="py-24 relative overflow-hidden">
+      <div className="glow-orb w-96 h-96 bg-emerald-500/10 bottom-0 right-0"></div>
 
       <div className="container mx-auto px-4 relative z-10">
         {/* Header */}
         <div className="text-center max-w-2xl mx-auto mb-14" data-aos="fade-up">
-          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg glass-card text-sky-400 text-xs font-nav mb-3">
+          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg glass-card text-emerald-400 text-xs font-nav mb-3">
             <Sparkles className="w-3.5 h-3.5" />
             <span>02. TECH MATRIX</span>
           </div>
@@ -75,7 +75,7 @@ function SkillsSection() {
           <p className="text-slate-400 text-sm sm:text-base">
             Modern tech stacks, libraries, and tools I use to build scalable web applications.
           </p>
-          <div className="h-1 w-20 bg-gradient-to-r from-sky-400 to-indigo-500 mx-auto rounded-full mt-4"></div>
+          <div className="h-1 w-20 bg-gradient-to-r from-emerald-400 to-teal-500 mx-auto rounded-full mt-4"></div>
         </div>
 
         {/* Filter Tabs & View Toggle */}
@@ -91,8 +91,8 @@ function SkillsSection() {
                 onClick={() => setActiveTab(cat.id)}
                 className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-nav transition-all duration-300 ${
                   activeTab === cat.id
-                    ? "bg-gradient-to-r from-sky-500 to-indigo-600 text-white shadow-glow"
-                    : "glass-card text-slate-400 hover:text-white hover:border-sky-500/30"
+                    ? "bg-gradient-to-r from-emerald-500 to-teal-600 text-white shadow-glow"
+                    : "glass-card text-slate-400 hover:text-white hover:border-emerald-500/30"
                 }`}
               >
                 {cat.label}
@@ -106,7 +106,7 @@ function SkillsSection() {
               onClick={() => setViewMode("grid")}
               className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg transition-all ${
                 viewMode === "grid"
-                  ? "bg-sky-500 text-white shadow-sm"
+                  ? "bg-emerald-500 text-white shadow-sm"
                   : "text-slate-400 hover:text-white"
               }`}
             >
@@ -117,7 +117,7 @@ function SkillsSection() {
               onClick={() => setViewMode("sphere")}
               className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg transition-all ${
                 viewMode === "sphere"
-                  ? "bg-sky-500 text-white shadow-sm"
+                  ? "bg-emerald-500 text-white shadow-sm"
                   : "text-slate-400 hover:text-white"
               }`}
             >
@@ -136,19 +136,19 @@ function SkillsSection() {
             {filteredSkills.map((skill, idx) => (
               <div
                 key={skill.name}
-                className="glass-card p-4 rounded-2xl border border-white/5 hover:border-sky-400/40 transition-all duration-300 group hover:-translate-y-1"
+                className="glass-card p-4 rounded-2xl border border-white/5 hover:border-emerald-400/40 transition-all duration-300 group hover:-translate-y-1"
               >
                 <div className="flex items-center justify-between mb-3">
-                  <span className="font-semibold text-white text-sm group-hover:text-sky-300 transition-colors">
+                  <span className="font-semibold text-white text-sm group-hover:text-emerald-300 transition-colors">
                     {skill.name}
                   </span>
-                  <span className="text-xs font-nav text-sky-400 font-medium">
+                  <span className="text-xs font-nav text-emerald-400 font-medium">
                     {skill.level}
                   </span>
                 </div>
 
                 {/* Progress bar */}
-                <div className="w-full h-1.5 rounded-full bg-slate-800/80 overflow-hidden">
+                <div className="w-full h-1.5 rounded-full bg-[#131f1a] overflow-hidden">
                   <div
                     className={`h-full rounded-full bg-gradient-to-r ${skill.color} transition-all duration-1000`}
                     style={{ width: skill.level }}
@@ -159,8 +159,8 @@ function SkillsSection() {
           </div>
         ) : (
           <div data-aos="zoom-in" className="max-w-xl mx-auto py-8">
-            <div className="glass-card p-6 rounded-3xl border border-sky-500/20 shadow-glow">
-              <p className="text-center text-xs font-nav text-sky-400 mb-2">
+            <div className="glass-card p-6 rounded-3xl border border-emerald-500/20 shadow-glow">
+              <p className="text-center text-xs font-nav text-emerald-400 mb-2">
                 * Interactive 3D Tech Cloud: Move your cursor to rotate
               </p>
               <SkillCloud />
