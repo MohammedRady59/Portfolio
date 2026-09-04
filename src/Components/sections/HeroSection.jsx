@@ -129,7 +129,7 @@ function HeroSection() {
 
             <a
               href="#contact"
-              className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl border border-slate-700/60 hover:border-emerald-400/50 bg-[#0d1512]/50 text-slate-300 hover:text-emerald-300 font-medium text-base transition-all duration-300"
+              className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl border border-white/10 hover:border-emerald-400/50 bg-[#0d1512]/50 text-slate-300 hover:text-emerald-300 font-medium text-base transition-all duration-300"
             >
               <span>Let's Talk</span>
             </a>
