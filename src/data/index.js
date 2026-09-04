@@ -1,132 +1,3 @@
-export const project = [
-  {
-    name: "Ecommerce",
-    details:
-      " Is a full e-commerce web application using Nextjs.This project’s state management was achieved using only ContextAPI to leverage its potentials to the max. A real-world payment gateway (Stripe) was implemented in this project.",
-    skills:
-      "NextJS - Reduxjs/toolkit - TypeScript - MUI - React-hook-form - React Slick",
-    demo: "https://fresh-cart-v2-tau.vercel.app/",
-    repo: "https://github.com/MohammedRady59/FreshCart-V2",
-  },
-  {
-    name: "BookPoint",
-    details:
-      "BookPoint is a web-based app that lets users post reviews, rate specific books, and browse and buy books.",
-    skills:
-      "NextJs - Typescript - Reduxjs/toolkitQuery - MUI - React-hook-form - API ",
-    demo: "https://bookpoint.vercel.app/",
-    repo: "https://github.com/MohammedRady59/BOOKPOINT",
-  },
-  {
-    name: "Todo-App",
-    details:
-      " An application called the TODO project was created to assist you in managing your everyday duties and activities. You can add new tasks, mark them as finished, and change or remove them as necessary. Additionally, the app offers the ability to view all newly added activities, which facilitates efficient task prioritisation and progress tracking.",
-    skills:
-      "NextJs - Typescript - Reduxjs/toolkit - shadcn/ui - React-hook-form - MongoDB - Clerk - Prisma ",
-    demo: "https://todo-app-next-js-mongo-db.vercel.app/",
-    repo: "https://github.com/MohammedRady59/TODO-with-Next.js-MongoDB",
-  },
-  {
-    name: "Social-App",
-    details:
-      " Developed a Next.js application using Redux Toolkit for state management, React Hook Form for form handling, and Axios for API interactions. The platform features a userauthentication system allowing users to log in, view their own and others' posts, andmanage posts and comments. Implemented robust functionalities for post creation,deletion, and commenting.",
-    skills:
-      "NextJs - Typescript - Reduxjs/toolkit- TaillwindCSS - React-hook-form - Axios - headlessui ",
-    demo: "https://social-app-khaki-seven.vercel.app/",
-    repo: "https://github.com/MohammedRady59/Social-App",
-  },
-
-  {
-    name: "Al-Maoza",
-    details:
-      "Programming Ongoing charity for all dead Muslims. The site is about the Noble Qur’an, interpretation of the Qur’an, hadiths, morning and evening remembrances, and praises.",
-    skills:
-      "React Js - Typescript - ReactQuery- TaillwindCSS - Axios - headlessui-React Hot Toast ",
-    demo: "https://quran-kareem-eta.vercel.app/",
-    repo: "https://github.com/MohammedRady59/Quran-Kareem",
-  },
-  {
-    name: "ChatApp-Firebase",
-    details:
-      "This project is a real-time chat application built using React and Firebase. Users can enter a room by providing a room name and engage in live conversations, with Firebase handling real-time data synchronization and storage.",
-    skills: "React Js - Firebace - TaillwindCSS - React Hot Toast ",
-    demo: "https://chat-app-firebase-delta.vercel.app/",
-    repo: "https://github.com/MohammedRady59/ChatApp-Firebase",
-  },
-  {
-    name: "Visual-Studio-Code-Clone",
-    details:
-      " I've developed a lightweight code editor similar to Visual Studio Code using React,TypeScript, Tailwind CSS, and Redux. The project features local data management withcustom page data and employs UUID for unique ID generation, ensuring robust andorganized state handling..",
-    skills:
-      "ReactJs - Typescript - Reduxjs/toolkit- TaillwindCSS- UUID - React-resizable-panels - React-syntax-highlighter",
-    demo: "https://visual-studio-code-clone-kappa.vercel.app/",
-    repo: "https://github.com/MohammedRady59/Visual-Studio-Code-Clone",
-  },
-  {
-    name: "HooBank",
-    details:
-      " HooBank is single page website with a modren UI/UX design about new payment method for hoo bank.",
-    skills: " ReactJs - TaillwindCSS",
-    demo: "https://hoobank-ten-snowy.vercel.app/",
-    repo: "https://github.com/MohammedRady59/Hoobank",
-  },
-  {
-    name: "CRUD System TS",
-    details:
-      " This React and TypeScript project is designed for managing products, featuring functionality to add items with attributes like price, category, image, colors, and description. It uses Headless UI for accessible components, TailwindCSS for modern styling, and UUID for generating unique product identifiers.",
-    skills: "React - TaillwindCSS - React HOOKS - TypeScript - Headlessui",
-    demo: "https://mohammedrady59.github.io/CRUD-SYSTEM-TS/",
-    repo: "https://github.com/MohammedRady59/CRUD-SYSTEM-TS",
-  },
-  {
-    name: "Fonztop",
-    details:
-      " Developed the company website front-end and currently maintaining it.",
-    skills: "ReactJs - TaillwindCSS - React Slick - AOS Library",
-    demo: "https://foanztopkw.com/",
-    repo: "https://foanztopkw.com/",
-  },
-  {
-    name: "Palestine",
-    details:
-      "We need to support our brothers in Palestine. By introducing their case against the Zionist occupati...",
-    skills: "HTML - CSS - Vanilla JS ",
-    demo: "https://mohammedrady59.github.io/Palestine/",
-    repo: "https://github.com/MohammedRady59/Palestine",
-  },
-  {
-    name: "Game-Over",
-    details:
-      "This project is a website for games. Important features include guard authentication and security, dark and light modes, and the ability to construct the home, information, login, and register pages utilising the backend via Apis.",
-    skills: "HTML - CSS - Vanilla JS - Bootstrap - API ",
-    demo: "https://mohammedrady59.github.io/Game-Over/",
-    repo: "https://github.com/MohammedRady59/Game-Over",
-  },
-  {
-    name: "Yummy",
-    details:
-      "This project is a website for a restaurant that makes and provides quick food. Search by meal name, search by meal initial letter, meal categories, meal displays for each region, and ingredient displays for each meal are some of the important features. This project was created using a single page and was built using Apis on the backend.",
-    skills: "HTML - TailwindCSS - Vanilla JS - JQuery - API ",
-    demo: "https://mohammedrady59.github.io/Yummy-App/",
-    repo: "https://github.com/MohammedRady59/Yummy-App",
-  },
-  {
-    name: "Footcap",
-    details:
-      "This project is a website for a restaurant that makes and provides quick food. Search by meal name, search by meal initial letter, meal categories, meal displays for each region, and ingredient displays for each meal are some of the important features. This project was created using a single page and was built using Apis on the backend.",
-    skills: "HTML - CSS - Vanilla JS - Bootstrap ",
-    demo: "https://mohammedrady59.github.io/FootCap/",
-    repo: "https://github.com/MohammedRady59/FootCap",
-  },
-  {
-    name: "Customer Transactions",
-    details:
-      "This project appears to be a dashboard; it has a table that shows client transactions and a chart that illustrates the percentage of each transaction. Search by client name and search by transaction amount are two important functionalities.",
-    skills: "HTML - CSS - Vanilla JS - Bootstrap - ChartJs",
-    demo: "https://mohammedrady59.github.io/Customer-Service/",
-    repo: "https://github.com/MohammedRady59/Customer-Service",
-  },
-];
 import photo1 from "../assets/Img/crud.png";
 import quran from "../assets/Img/quran.png";
 import next from "../assets/Img/Next.png";
@@ -138,10 +9,11 @@ import photo5 from "../assets/Img/ftwk.png";
 import photo6 from "../assets/Img/gameover.png";
 import photo7 from "../assets/Img/plastine.png";
 import photo8 from "../assets/Img/yummy.png";
-import todo from "../assets/Img/Todo.png";
+import todo from "../assets/Img/Todo.png"; 
 import hookbank from "../assets/Img/hookBank.png";
 import chat from "../assets/Img/chat.png";
 import bookPoint from "../assets/Img/bookPoint.png";
+
 export const images = [
   photo4,
   bookPoint,
@@ -158,4 +30,202 @@ export const images = [
   photo8,
   photo3,
   photo2,
+];
+
+export const project = [
+  {
+    id: 1,
+    name: "FreshCart V2 - E-Commerce",
+    category: "nextjs",
+    featured: true,
+    image: photo4,
+    details:
+      "A high-performance full e-commerce web application built using Next.js. Features complex state management, responsive UI, search & filtering, cart system, and real-world Stripe payment gateway integration.",
+    skills: "NextJS - Redux Toolkit - TypeScript - MUI - React-hook-form - Stripe",
+    tags: ["Next.js", "TypeScript", "Redux", "Stripe", "MUI"],
+    demo: "https://fresh-cart-v2-tau.vercel.app/",
+    repo: "https://github.com/MohammedRady59/FreshCart-V2",
+  },
+  {
+    id: 2,
+    name: "BookPoint Library Platform",
+    category: "nextjs",
+    featured: true,
+    image: bookPoint,
+    details:
+      "Modern book review & browsing platform that lets users discover books, rate, submit detailed reviews, and purchase publications with seamless API data synchronization.",
+    skills: "NextJs - TypeScript - RTK Query - Material UI - React Hook Form",
+    tags: ["Next.js", "TypeScript", "RTK Query", "MUI", "API"],
+    demo: "https://bookpoint.vercel.app/",
+    repo: "https://github.com/MohammedRady59/BOOKPOINT",
+  },
+  {
+    id: 3,
+    name: "TaskMaster - Next.js Todo App",
+    category: "nextjs",
+    featured: true,
+    image: todo,
+    details:
+      "Production-ready task management dashboard with MongoDB, Prisma ORM, Clerk authentication, and Shadcn/ui. Facilitates efficient task prioritization, status updates, and progress analytics.",
+    skills: "NextJs - TypeScript - Redux Toolkit - Shadcn UI - MongoDB - Clerk - Prisma",
+    tags: ["Next.js", "MongoDB", "Prisma", "Clerk", "Shadcn UI"],
+    demo: "https://todo-app-next-js-mongo-db.vercel.app/",
+    repo: "https://github.com/MohammedRady59/TODO-with-Next.js-MongoDB",
+  },
+  {
+    id: 4,
+    name: "SocialConnect Web Platform",
+    category: "nextjs",
+    featured: true,
+    image: next,
+    details:
+      "Full-featured social media platform with user authentication, custom posts, rich media comments, interactive feeds, and secure JWT-based authorization.",
+    skills: "NextJs - TypeScript - Redux Toolkit - TailwindCSS - Axios - HeadlessUI",
+    tags: ["Next.js", "Redux Toolkit", "TailwindCSS", "Axios"],
+    demo: "https://social-app-khaki-seven.vercel.app/",
+    repo: "https://github.com/MohammedRady59/Social-App",
+  },
+  {
+    id: 5,
+    name: "Al-Maoza (Quran Kareem)",
+    category: "react",
+    featured: true,
+    image: quran,
+    details:
+      "Ongoing charity web application featuring the Holy Quran recitation, interpretations, authentic Hadith, morning & evening Azkar, and interactive digital praise counter.",
+    skills: "React.js - TypeScript - React Query - TailwindCSS - Axios - Headless UI",
+    tags: ["React.js", "TypeScript", "React Query", "TailwindCSS"],
+    demo: "https://quran-kareem-eta.vercel.app/",
+    repo: "https://github.com/MohammedRady59/Quran-Kareem",
+  },
+  {
+    id: 6,
+    name: "Realtime Firebase Chat",
+    category: "react",
+    featured: false,
+    image: chat,
+    details:
+      "Real-time chat messaging application powered by React and Firebase Cloud Firestore. Users can create custom chat rooms, exchange instant messages, and track active users.",
+    skills: "React.js - Firebase Firestore - TailwindCSS - React Hot Toast",
+    tags: ["React.js", "Firebase", "Realtime", "TailwindCSS"],
+    demo: "https://chat-app-firebase-delta.vercel.app/",
+    repo: "https://github.com/MohammedRady59/ChatApp-Firebase",
+  },
+  {
+    id: 7,
+    name: "VS Code Web Clone",
+    category: "react",
+    featured: true,
+    image: vs,
+    details:
+      "Lightweight in-browser code editor inspired by Visual Studio Code. Features resizable panels, multiple file tabs, code syntax highlighting, and local state management.",
+    skills: "React.js - TypeScript - Redux Toolkit - TailwindCSS - Resizable Panels",
+    tags: ["React.js", "TypeScript", "Redux", "Syntax Highlighting"],
+    demo: "https://visual-studio-code-clone-kappa.vercel.app/",
+    repo: "https://github.com/MohammedRady59/Visual-Studio-Code-Clone",
+  },
+  {
+    id: 8,
+    name: "HooBank Modern Banking UI",
+    category: "react",
+    featured: false,
+    image: hookbank,
+    details:
+      "High-converting modern banking landing page featuring sleek gradient accents, glassmorphism, responsive navigation, and payment method showcases.",
+    skills: "React.js - TailwindCSS - Responsive Design",
+    tags: ["React.js", "TailwindCSS", "UI/UX Design"],
+    demo: "https://hoobank-ten-snowy.vercel.app/",
+    repo: "https://github.com/MohammedRady59/Hoobank",
+  },
+  {
+    id: 9,
+    name: "CRUD Management System TS",
+    category: "react",
+    featured: false,
+    image: photo1,
+    details:
+      "Product inventory & catalog management application with complete CRUD operations, image URL uploads, category tagging, color swatches, and accessible Headless UI modals.",
+    skills: "React - TypeScript - TailwindCSS - Headless UI - UUID",
+    tags: ["React", "TypeScript", "TailwindCSS", "Headless UI"],
+    demo: "https://mohammedrady59.github.io/CRUD-SYSTEM-TS/",
+    repo: "https://github.com/MohammedRady59/CRUD-SYSTEM-TS",
+  },
+  {
+    id: 10,
+    name: "FONZTOP Corporate Portal",
+    category: "react",
+    featured: true,
+    image: photo5,
+    details:
+      "Commercial e-commerce & mobile device exchange platform for Kuwait clients. Built front-end components, product sliders, animations, and maintain production updates.",
+    skills: "React.js - TailwindCSS - React Slick - AOS Animations",
+    tags: ["Commercial", "React.js", "TailwindCSS", "Client Work"],
+    demo: "https://foanztopkw.com/",
+    repo: "https://foanztopkw.com/",
+  },
+  {
+    id: 11,
+    name: "Palestine Solidarity Platform",
+    category: "vanilla",
+    featured: false,
+    image: photo7,
+    details:
+      "Informative advocacy web project presenting history, humanitarian facts, and educational resources regarding the Palestinian cause.",
+    skills: "HTML5 - CSS3 - JavaScript ES6",
+    tags: ["HTML5", "CSS3", "JavaScript"],
+    demo: "https://mohammedrady59.github.io/Palestine/",
+    repo: "https://github.com/MohammedRady59/Palestine",
+  },
+  {
+    id: 12,
+    name: "GameOver Gaming Hub",
+    category: "vanilla",
+    featured: false,
+    image: photo6,
+    details:
+      "Video games catalog web app with authentication guards, dark/light theme switching, live game database API integration, and category filtering.",
+    skills: "HTML - CSS - Vanilla JS - Bootstrap 5 - FreeToGame API",
+    tags: ["JavaScript", "APIs", "Bootstrap", "Game DB"],
+    demo: "https://mohammedrady59.github.io/Game-Over/",
+    repo: "https://github.com/MohammedRady59/Game-Over",
+  },
+  {
+    id: 13,
+    name: "Yummy Food & Recipes Portal",
+    category: "vanilla",
+    featured: false,
+    image: photo8,
+    details:
+      "Interactive culinary recipe application. Features live ingredient search, country origin filter, dish preparation tutorials, and dynamic MealDB API integration.",
+    skills: "HTML - TailwindCSS - Vanilla JS - TheMealDB API",
+    tags: ["JavaScript", "TailwindCSS", "MealDB API"],
+    demo: "https://mohammedrady59.github.io/Yummy-App/",
+    repo: "https://github.com/MohammedRady59/Yummy-App",
+  },
+  {
+    id: 14,
+    name: "FootCap Footwear Store",
+    category: "vanilla",
+    featured: false,
+    image: photo3,
+    details:
+      "Clean sneaker & sports footwear showcase with product catalog grids, interactive size selectors, and responsive checkout layout.",
+    skills: "HTML5 - CSS3 - JavaScript - Bootstrap",
+    tags: ["JavaScript", "Bootstrap", "E-Commerce UI"],
+    demo: "https://mohammedrady59.github.io/FootCap/",
+    repo: "https://github.com/MohammedRady59/FootCap",
+  },
+  {
+    id: 15,
+    name: "Customer Transactions Dashboard",
+    category: "vanilla",
+    featured: false,
+    image: photo2,
+    details:
+      "Financial analytics dashboard providing customer transaction records, live filtering by customer name and transaction amount, and interactive Chart.js visualizations.",
+    skills: "HTML - CSS - JavaScript - Chart.js - Bootstrap",
+    tags: ["Dashboard", "Chart.js", "Data Visualization"],
+    demo: "https://mohammedrady59.github.io/Customer-Service/",
+    repo: "https://github.com/MohammedRady59/Customer-Service",
+  },
 ];

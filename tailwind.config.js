@@ -6,31 +6,48 @@ export default {
       center: true,
       padding: {
         DEFAULT: "1rem",
-        sm: "4rem",
-        lg: "4rem",
-        xl: "5rem",
+        sm: "2rem",
+        lg: "3rem",
+        xl: "4rem",
       },
     },
     extend: {
-      backgroundImage: {
-        "hero-pattern": "url('./src/assets/Img/me.png')",
-        "custom-gradient": "linear-gradient(90deg, #ffffff1a, #fff0)",
-      },
       colors: {
-        customBlue: "#83dbff",
-        head: "#111827",
+        darkBg: "#080c14",
+        cardBg: "#0f172a",
+        customBlue: "#38bdf8",
+        cyanGlow: "#00f0ff",
+        violetGlow: "#818cf8",
+        head: "#080c14",
       },
-      cursor: {
-        fancy: "url(https://img.icons8.com/arcade/40/cursor.png), auto",
+      boxShadow: {
+        glow: "0 0 25px -5px rgba(56, 189, 248, 0.4)",
+        "glow-lg": "0 0 35px -5px rgba(129, 140, 248, 0.45)",
+        "card-glass": "0 8px 32px 0 rgba(0, 0, 0, 0.37)",
       },
       fontFamily: {
         nav: ["Roboto Mono", "monospace"],
-        main: ["Noto Nastaliq Urdu", "serif"],
-        name: ["Montserrat Alternates", "sans-serif"],
+        main: ["Montserrat Alternates", "sans-serif"],
         lota: ["Lato", "sans-serif"],
+      },
+      animation: {
+        "pulse-slow": "pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite",
+        float: "float 4s ease-in-out infinite",
+        shimmer: "shimmer 2.5s linear infinite",
+      },
+      keyframes: {
+        float: {
+          "0%, 100%": { transform: "translateY(0px)" },
+          "50%": { transform: "translateY(-10px)" },
+        },
+        shimmer: {
+          "0%": { backgroundPosition: "-200% 0" },
+          "100%": { backgroundPosition: "200% 0" },
+        },
       },
     },
   },
   plugins: [],
   darkMode: "selector",
 };
+
